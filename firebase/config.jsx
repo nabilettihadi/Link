@@ -11,15 +11,6 @@ const firebaseConfig = {
   messagingSenderId: "520000246752",
   appId: "1:520000246752:web:0e6b6b101c69938cb69185",
 };
-// const firebaseConfig = {
-//   apiKey: "AIzaSyC516AXxPnqQ0BwiGOfazkx8MpbHcuGrhw",
-//   authDomain: "devlinks-baee2.firebaseapp.com",
-//   projectId: "devlinks-baee2",
-//   storageBucket: "devlinks-baee2.appspot.com",
-//   messagingSenderId: "442118404309",
-//   appId: "1:442118404309:web:a196f3af0bb194f1640a5c",
-//   measurementId: "G-RMD1CM48SE"
-// };
 
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
